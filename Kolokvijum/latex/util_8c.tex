@@ -1,0 +1,86 @@
+\hypertarget{util_8c}{}\doxysection{util.\+c File Reference}
+\label{util_8c}\index{util.c@{util.c}}
+
+
+C datoteka za realizaciju potrebnih pomocnih funkcija.  
+
+
+{\ttfamily \#include \char`\"{}util.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{util_8c_aed535a3a40f2c56331ba12d7614854fd}{swap}} (int $\ast$xp, int $\ast$yp)
+\begin{DoxyCompactList}\small\item\em Sve biblioteke potrebne za rad zadatka. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{util_8c_a68f8793f1ed38efbd8ffa02602f688e7}{Sort}} (int16\+\_\+t $\ast$array, int16\+\_\+t array\+\_\+length, int8\+\_\+t mode)
+\item 
+int8\+\_\+t \mbox{\hyperlink{util_8c_ace9caf262fdf420c2251e6d8c8308b28}{Check}} (int16\+\_\+t $\ast$array, int16\+\_\+t array\+\_\+length)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+C datoteka za realizaciju potrebnih pomocnih funkcija. 
+
+\begin{DoxyAuthor}{Author}
+Milos Strizak 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+16/05/2021 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{util_8c_ace9caf262fdf420c2251e6d8c8308b28}\label{util_8c_ace9caf262fdf420c2251e6d8c8308b28}} 
+\index{util.c@{util.c}!Check@{Check}}
+\index{Check@{Check}!util.c@{util.c}}
+\doxysubsubsection{\texorpdfstring{Check()}{Check()}}
+{\footnotesize\ttfamily int8\+\_\+t Check (\begin{DoxyParamCaption}\item[{int16\+\_\+t $\ast$}]{array,  }\item[{int16\+\_\+t}]{array\+\_\+length }\end{DoxyParamCaption})}
+
+Funkcija Check vrsi proveru da li je uneti niz geometrijski 
+\begin{DoxyParams}{Parameters}
+{\em array-\/} & dati niz \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vrednosti T\+R\+UE ili F\+A\+L\+SE, definisane kao makro konstante za vrednosti 1 i 0. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{util_8c_a68f8793f1ed38efbd8ffa02602f688e7}\label{util_8c_a68f8793f1ed38efbd8ffa02602f688e7}} 
+\index{util.c@{util.c}!Sort@{Sort}}
+\index{Sort@{Sort}!util.c@{util.c}}
+\doxysubsubsection{\texorpdfstring{Sort()}{Sort()}}
+{\footnotesize\ttfamily void Sort (\begin{DoxyParamCaption}\item[{int16\+\_\+t $\ast$}]{array,  }\item[{int16\+\_\+t}]{array\+\_\+length,  }\item[{int8\+\_\+t}]{mode }\end{DoxyParamCaption})}
+
+Funkcija Sort treba da sortira niz array duzine array\+\_\+length, na nacin odabran parametrom mode. Parametar mode moze imati vrednost konstanti UP i D\+O\+WN definisanih pomocu makroa. Ukoliko mode ima vrednost UP, sortira niz od najveceg do najmanjeg elementa, dok u slucaju vrednosti D\+O\+WN sortira niz od najmanjeg do najveceg elementa. 
+\begin{DoxyParams}{Parameters}
+{\em array-\/} & dati niz \\
+\hline
+{\em array\+\_\+lenght-\/} & duzina datog niza \\
+\hline
+{\em mode-\/} & nacin rada u kom smo modu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nema povratnu vrednost 
+\end{DoxyReturn}
+\mbox{\Hypertarget{util_8c_aed535a3a40f2c56331ba12d7614854fd}\label{util_8c_aed535a3a40f2c56331ba12d7614854fd}} 
+\index{util.c@{util.c}!swap@{swap}}
+\index{swap@{swap}!util.c@{util.c}}
+\doxysubsubsection{\texorpdfstring{swap()}{swap()}}
+{\footnotesize\ttfamily void swap (\begin{DoxyParamCaption}\item[{int $\ast$}]{xp,  }\item[{int $\ast$}]{yp }\end{DoxyParamCaption})}
+
+
+
+Sve biblioteke potrebne za rad zadatka. 
+
+Funkcija swap da menja mesta u sortu 
+\begin{DoxyParams}{Parameters}
+{\em xp-\/} & jedan clan \\
+\hline
+{\em yp-\/} & drugi clan \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+nema povratnu vrednost. 
+\end{DoxyReturn}
